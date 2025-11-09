@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pottery - Emma Barrett</title>
+  <link rel="stylesheet" href="css/style.css?v=1758394753">
+  <style>
+    /* Masonry-style responsive gallery */
+    .gallery {
+      column-count: 3;
+      column-gap: 15px;
+      margin-top: 20px;
+    }
+    @media (max-width: 900px) {
+      .gallery { column-count: 2; }
+    }
+    @media (max-width: 600px) {
+      .gallery { column-count: 1; }
+    }
+
+    .gallery img {
+      width: 100%;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      transition: transform 0.2s ease;
+      break-inside: avoid;
+      display: block;
+    }
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    .page-title {
+      margin-bottom: 10px;
+    }
+
+    main.content {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="inner">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="files/CV.pdf" target="_blank">CV</a>
+        <a href="pottery.html">Pottery</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="content">
+
+    <div class="gallery">
+      <img src="files/pottery1.jpeg" alt="Pottery piece 1">
+      <img src="files/pottery2.jpeg" alt="Pottery piece 2">
+      <img src="files/pottery3.jpeg" alt="Pottery piece 3">
+      <img src="files/pottery4.jpeg" alt="Pottery piece 4">
+      <img src="files/pottery5.jpeg" alt="Pottery piece 5">
+      <img src="files/pottery6.jpeg" alt="Pottery piece 6">
+    </div>
+  </main>
+
+  <!-- Footer -->
+   <footer class="site-footer">
+    <span>Last updated: November 9, 2025</span><br>
+    <span>Website template courtesy of Marc Sabatier Hvidkjær</span>
+  </footer>
+
+</body>
+</html>
